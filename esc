@@ -1,0 +1,282 @@
+[33mcommit 2d7d4ac501d971c516d133d6b2fd3debaa8773d5[m
+Author: amit <amirudra007@gmail.com>
+Date:   Thu Mar 30 13:28:16 2017 +0530
+
+    atoms arranged
+
+[33mcommit 25b5ed73889fc767d4b5d97eabbfc2bc54555b59[m
+Author: amit <amirudra007@gmail.com>
+Date:   Thu Mar 30 13:06:53 2017 +0530
+
+    webhook added
+
+[33mcommit f1606ccc2fc46474b493b6c62664b9fc78a5d79b[m
+Author: amit <amirudra007@gmail.com>
+Date:   Wed Mar 29 09:04:56 2017 +0530
+
+    content set in atom
+
+[33mcommit fc86b0d499975dd4c9f2a3c42546d564ef7eea52[m
+Author: amit <amirudra007@gmail.com>
+Date:   Thu Mar 23 17:32:32 2017 +0530
+
+    typography.css
+
+[33mcommit ceb7479fa0c14fede7b923934bae0a6d95cfc85a[m
+Author: amit <amirudra007@gmail.com>
+Date:   Thu Mar 23 17:27:12 2017 +0530
+
+    templates and partials folder created
+
+[33mcommit 2eeb2bc91eee0854392c776e731445eb22b7d3ba[m
+Author: amit <amirudra007@gmail.com>
+Date:   Thu Mar 23 10:33:15 2017 +0530
+
+    Refactors Atoms
+
+[33mcommit 1c89c30dbe835ca4c4e9dd17ba303e8d6049d2c2[m
+Author: amit <amirudra007@gmail.com>
+Date:   Thu Mar 23 09:14:06 2017 +0530
+
+    gruntfile added and package json
+
+[33mcommit f688b03b74a9b839437d0cbee8dca94fb0512003[m
+Author: amit <amirudra007@gmail.com>
+Date:   Wed Mar 22 19:37:59 2017 +0530
+
+    Completes typography definitions
+
+[33mcommit d1c4fdbb77f8d2e7323ca5157bb6b2156138d607[m
+Author: amit <amirudra007@gmail.com>
+Date:   Wed Mar 22 19:32:51 2017 +0530
+
+    Modifies base & haedaing font sizes
+
+[33mcommit b3cbdd1caf69a7c79748dd52dd37bc735f6347d5[m
+Author: amit <amirudra007@gmail.com>
+Date:   Wed Mar 22 19:27:43 2017 +0530
+
+    Adds PT Sans font
+
+[33mcommit cabe43a35cb2e9c61ef016dbb1fe6cb3a12f064f[m
+Author: amit <amirudra007@gmail.com>
+Date:   Wed Mar 22 19:24:31 2017 +0530
+
+    Fixes variables' directory name
+
+[33mcommit d7205dd5e7ceb4cc2e2684d67ae36c841444f70d[m
+Author: amit <amirudra007@gmail.com>
+Date:   Wed Mar 22 19:22:40 2017 +0530
+
+    Refactors Saas structure
+
+[33mcommit 564cab0c5f24690bac2306217b01b9f72e826cb3[m
+Author: amit <amirudra007@gmail.com>
+Date:   Wed Mar 22 19:15:36 2017 +0530
+
+    Add grunt task
+
+[33mcommit b22c7a9e998c26be5c0b87ca0f568fe9075c15c1[m
+Author: amit <amirudra007@gmail.com>
+Date:   Wed Mar 22 19:13:20 2017 +0530
+
+    ADDS gitignore
+
+[33mcommit b43827669b0b89d83642f59670e25950cb90d15c[m
+Author: amit <amirudra007@gmail.com>
+Date:   Wed Mar 22 19:02:25 2017 +0530
+
+    readme.txt and gitignore
+
+[33mcommit b330bbaba7fc62c089cdf94e52595941493882db[m
+Author: Tammie Lister <karmatosed@gmail.com>
+Date:   Sat Dec 24 23:28:36 2016 +0000
+
+    Fix the issue with naming after merge
+
+[33mcommit 8c6cffc799d5a7ecb730446af628416a18f2667f[m
+Merge: 44710f2 8655bf2
+Author: Tammie Lister <karmatosed@gmail.com>
+Date:   Fri Dec 23 14:56:56 2016 +0000
+
+    Merge pull request #906 from ardalann/patch-1
+    
+    Update the replace example in README.md
+
+[33mcommit 44710f2b5e16f0af91026cbee5d75871dfe0a20a[m
+Merge: 6e04a5f c2b091c
+Author: Tammie Lister <karmatosed@gmail.com>
+Date:   Fri Dec 23 14:53:59 2016 +0000
+
+    Merge pull request #989 from p0o/p0o-patch-1
+    
+    Adding License
+
+[33mcommit 6e04a5f80238afc44b048623b1ccddf5b56513d9[m
+Merge: 9700947 8e1367b
+Author: Tammie Lister <karmatosed@gmail.com>
+Date:   Fri Dec 23 14:48:15 2016 +0000
+
+    Merge pull request #1035 from bjorn2404/master
+    
+    The header change to use a get_bloginfo : props @bjorn2404
+    Can you please make sure you explain beyond just using technical calls.
+
+[33mcommit 9700947f741dbcf4b5059b44010079ad24a7dfaa[m
+Merge: 9f60f7d 396b9cb
+Author: Tammie Lister <karmatosed@gmail.com>
+Date:   Fri Dec 23 14:40:15 2016 +0000
+
+    Merge pull request #1018 from mrwweb/tux-menu-naming
+    
+    Change primary menu idea to menu-1: props @mrwweb
+
+[33mcommit 9f60f7dc41b9dffb8a698fb73f97932d7191f26d[m
+Merge: 69cdd53 525defe
+Author: Tammie Lister <karmatosed@gmail.com>
+Date:   Fri Dec 23 14:36:43 2016 +0000
+
+    Merge pull request #1024 from joviczarko/RemoveButtonShadow
+    
+    Remove Button Shadow Styling: props @joviczarko
+    
+    I agree that this is a good latest update. Many remove this anyway.
+
+[33mcommit 69cdd5361c9b167d3f9a1dc56cf63f65157429da[m
+Merge: e38cfc2 77645d7
+Author: Tammie Lister <karmatosed@gmail.com>
+Date:   Fri Dec 23 14:31:19 2016 +0000
+
+    Merge pull request #1049 from samikeijonen/issue/994
+    
+    Add theme support for selective refresh for widgets: props @samikeijonen
+
+[33mcommit e38cfc29bca6d414393f3aa16303f8f6a7ea5b0e[m
+Merge: 3c7fe6f 25abf6d
+Author: Tammie Lister <karmatosed@gmail.com>
+Date:   Fri Dec 23 14:30:14 2016 +0000
+
+    Merge pull request #1052 from samikeijonen/issue/1045
+    
+    Remove aria-haspopup: props @samikeijonen
+
+[33mcommit 3c7fe6f91ea2e44d981e45da2205c496189a7500[m
+Merge: 33a7775 2370c59
+Author: Tammie Lister <karmatosed@gmail.com>
+Date:   Fri Dec 23 14:29:25 2016 +0000
+
+    Merge pull request #1051 from samikeijonen/issue/1041
+    
+    Remove link around header image: props @samikeijonen
+
+[33mcommit 33a777556fadf3350131b95338c51df2f88da583[m
+Merge: efab129 9a988ea
+Author: Tammie Lister <karmatosed@gmail.com>
+Date:   Fri Dec 23 14:26:19 2016 +0000
+
+    Merge pull request #1053 from samikeijonen/issue/1046
+    
+    Fix skip link focus for IE11: props @samikeijonen
+
+[33mcommit efab129e427a8450b8e32554c5eff74db94a3079[m
+Merge: 59fc136 fd3ce55
+Author: Tammie Lister <karmatosed@gmail.com>
+Date:   Fri Dec 23 14:24:59 2016 +0000
+
+    Merge pull request #1054 from samikeijonen/issue/1047
+    
+    Add word-wrap: normal to screen-reader text class: props @samikeijonen
+
+[33mcommit 59fc136158b35bcfda8b38c827091224a7e9ba1f[m
+Merge: 45be24e 71771d9
+Author: Tammie Lister <karmatosed@gmail.com>
+Date:   Fri Dec 23 14:22:52 2016 +0000
+
+    Merge pull request #991 from grappler/custom-header
+    
+    Remove deprecated constant HEADER_TEXTCOLOR : props @grappler
+
+[33mcommit 45be24e7ceb8aad1aa42952ab1b2ac2f2617ab79[m
+Merge: dd1f736 e3fe096
+Author: Tammie Lister <karmatosed@gmail.com>
+Date:   Fri Dec 23 12:35:39 2016 +0000
+
+    Merge pull request #1006 from marcinkrzeminski/master
+    
+    Translation fix for a comment string
+
+[33mcommit dd1f7366dfb2ea4810473097345f0bdd0e2a2627[m
+Merge: 7c06a2c 723d20d
+Author: Tammie Lister <karmatosed@gmail.com>
+Date:   Fri Dec 23 12:33:29 2016 +0000
+
+    Merge pull request #1008 from B-07/patch-3
+    
+    Automattic url http to https
+
+[33mcommit 7c06a2c2dd5841ffcd0a95936e90a61f2d600ed8[m
+Merge: c2b1216 923b473
+Author: Tammie Lister <karmatosed@gmail.com>
+Date:   Fri Dec 23 12:32:38 2016 +0000
+
+    Merge pull request #1003 from B-07/patch-1
+    
+    Update Normalize site link
+
+[33mcommit c2b1216556b2f4688c0f5acee2415f3815bb50d9[m
+Merge: 80fd6d2 ccaa222
+Author: Tammie Lister <karmatosed@gmail.com>
+Date:   Fri Dec 23 12:26:45 2016 +0000
+
+    Merge pull request #1011 from jrfnl/feature/travis-tweaks
+    
+    Minor automated testing tweaks.
+
+[33mcommit 80fd6d27eb68a3229327e822765010503dd65395[m
+Merge: e39f5e5 15f2dca
+Author: Tammie Lister <karmatosed@gmail.com>
+Date:   Fri Dec 23 12:21:26 2016 +0000
+
+    Merge pull request #1007 from B-07/patch-2
+    
+    Fix typo
+
+[33mcommit e39f5e55dbed61bc25a451a1f998d6da81c00a98[m
+Merge: 50af2ac c7cea49
+Author: Tammie Lister <karmatosed@gmail.com>
+Date:   Fri Dec 23 12:20:57 2016 +0000
+
+    Merge pull request #1009 from B-07/patch-4
+    
+    Add end comment
+
+[33mcommit 50af2ac2f3b772d0f658d8d092dc79d9fe0377af[m
+Merge: bd858e4 1ed9d1a
+Author: Tammie Lister <karmatosed@gmail.com>
+Date:   Fri Dec 23 12:20:41 2016 +0000
+
+    Merge pull request #1026 from B-07/patch-7
+    
+    Remove period from file header
+
+[33mcommit bd858e4e96d1c9c0585504b88e3b18d3eaee3ec3[m
+Merge: f61e3e4 0d2d61a
+Author: Tammie Lister <karmatosed@gmail.com>
+Date:   Fri Dec 23 12:19:50 2016 +0000
+
+    Merge pull request #1028 from B-07/master
+    
+    Remove period from file header
+
+[33mcommit f61e3e49d08c5e4d4976c80311deeb267b6ec878[m
+Merge: 9c8fa1e 866dbbf
+Author: Tammie Lister <karmatosed@gmail.com>
+Date:   Fri Dec 23 12:18:58 2016 +0000
+
+    Merge pull request #1036 from B-07/patch-8
+    
+    Fix typo and update link
+
+[33mcommit 9c8fa1e9bb4ffb359b1db4276bb2c90c04ae38c1[m
+Merge: 7d0846e 68b0b9c
+Author: Tamm
