@@ -1,0 +1,72 @@
+@mixin row ($gutter:false){
+	
+	display: flex;
+	
+	// if it needs a gutter, add it
+	@if true == $gutter{
+		margin: -$grid-gutter 0 $grid-gutter -$grid-gutter;
+	}
+	
+	@media (max-width: $bp-small) {
+		flex-direction: column;
+	}
+}
+
+@mixin col($flex-width:0, $gutter:false) {
+	
+	// if it needs a gutter, add it
+	@if true == $gutter{
+		padding: $grid-gutter 0 0 $grid-gutter;
+	}
+	
+	// if specific width is not desired, just make it calculate default space
+	@if 0 == $flex-width {
+		flex: 1;
+	}@else{
+		// otherwise, give it a fixed width
+		flex: 0 0 $flex-width+'%';
+	}
+	
+	min-width: 1px; // Firefox-34-ignoring-max-width-for-flexbox
+	display: inline-block; // In IE 10, setting -ms-flex-flow: row wrap will not wrap unless display: inline-block is set on child elements.
+	list-style: none; // for list items
+	
+	// for media screens
+	@media (max-width: $bp-small) {
+		flex: 0 0 auto;
+	}
+}
+
+// ***** Alignment per row ***** //
+
+/* Alignment Top */
+@mixin row-top {
+    align-items: flex-start;
+}
+
+/* Alignment Bottom */
+@mixin row-bottom {
+    align-items: flex-end;
+}
+
+/* Alignment Center */
+@mixin row-center {
+    align-items: center;
+}
+
+// ***** Alignment per cell ***** //
+
+/* Alignment Top */
+@mixin col-top {
+    align-self: flex-start;
+}
+
+/* Alignment Bottom */
+@mixin col-bottom {
+    align-self: flex-end;
+}
+
+/* Alignment Center */
+@mixin col-center {
+    align-self: center;
+} 
