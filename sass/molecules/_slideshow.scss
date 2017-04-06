@@ -1,0 +1,28 @@
+/*
+<section class="item-slideshow-wrapper">
+	<ul class="bxslider item-slideshow">
+			<li><img src="/images/home_slides/picto.png"></li>
+			<li><img src="/images/home_slides/houses.jpg"></li>
+			<li><img src="/images/home_slides/hillside.jpg"></li>
+	</ul>
+</section>
+*/
+
+section.item-slideshow-wrapper{
+	
+	// section styling here
+	
+	ul.item-slideshow{
+		
+		// ul styling here
+		
+		li{
+			// list item styling here
+			
+			img{
+				
+				// image styling here
+			}
+		}
+	}
+}

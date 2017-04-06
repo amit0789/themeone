@@ -1,4 +1,4 @@
-/*
+/*!
 Theme Name: baapwp
 Theme URI: http://underscores.me/
 Author: Underscores.me
@@ -517,14 +517,416 @@ textarea {
 /*--------------------------------------------------------------
 # Molecules
 --------------------------------------------------------------*/
-/*@import "molecules/molecules";
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+.avatar {
+  border-radius: 8px;
+}
+
+.wp-caption {
+  margin-bottom: 1.5em;
+  max-width: 100%;
+}
+.wp-caption img[class*="wp-image-"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wp-caption .wp-caption-text {
+  margin: 0.8075em 0;
+}
+
+.wp-caption-text {
+  text-align: center;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 23, 2017, 2:47:51 PM
+    Author     : saurabhshukla
+*/
+#primary-menu {
+  float: left;
+}
+
+.toggle-search, .mobile-toggle-search {
+  padding: 15px 20px 17px;
+  font-size: 16px;
+  float: right;
+  border-left: 1px solid #009999;
+  border-right: 1px solid #009999;
+  line-height: 1em;
+  cursor: pointer;
+}
+
+.mobile-toggle-search {
+  background: #13a8b1;
+  border: #13a8b1;
+  color: #fff;
+  font-size: 16px;
+  float: right;
+  padding: 10px 10px 10px;
+}
+
+.nav-search {
+  display: none;
+  position: absolute;
+  top: 51px;
+  right: 8.4%;
+}
+
+.nav-search.search-display {
+  display: block;
+  padding: 3px 4px;
+}
+
+.header-search-icon-btn {
+  line-height: 1.0;
+}
+
+.main-navigation {
+  clear: both;
+  display: block;
+  float: left;
+  width: 100%;
+  background: #13a8b1;
+  color: #fff;
+  position: relative;
+  margin-bottom: 40px;
+}
+.main-navigation ul {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.main-navigation ul ul {
+  display: none;
+  float: left;
+  position: absolute;
+  left: auto;
+  top: auto;
+  z-index: 99999;
+}
+.main-navigation ul ul ul {
+  display: none;
+  top: 0;
+}
+.main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
+  left: 100%;
+}
+.main-navigation ul ul a {
+  width: 200px;
+}
+.main-navigation li {
+  border-right: 1px solid #009999;
+  float: left;
+  line-height: 1.188em;
+  position: relative;
+}
+.main-navigation li:first-child {
+  border-left: 1px solid #009999;
+}
+.main-navigation a {
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  padding: 15px 30px 17px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-toggle-search, .menu-toggle {
+    display: none;
+  }
+
+  .mobile-nav-search {
+    display: none;
+  }
+
+  .main-navigation ul {
+    display: block;
+  }
+
+  .main-navigation ul ul {
+    background-color: #13a8b1;
+  }
+
+  .main-navigation ul ul ul {
+    background-color: #13a8b1;
+  }
+
+  .main-navigation ul li:hover > ul {
+    display: block;
+    top: 100%;
+  }
+
+  .main-navigation ul .menu-item-has-children > a::after {
+    content: "\f107";
+    font-family: "FontAwesome";
+    position: absolute;
+    right: 0.625em;
+    top: 1.1em;
+    width: 11px;
+    height: 17px;
+  }
+
+  .main-navigation ul ul .menu-item-has-children > a::after {
+    content: "\f105";
+    font-family: "FontAwesome";
+    position: absolute;
+    right: 0.625em;
+    top: 1.1em;
+    width: 11px;
+    height: 17px;
+  }
+
+  .main-navigation ul ul li:hover > ul,
+  .main-navigation ul ul li.focus > ul {
+    left: 100%;
+    top: 0;
+    display: block;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* Small menu. */
+  .mobile-toggle-search,
+  .menu-toggle,
+  .main-navigation.toggled ul {
+    display: block;
+  }
+
+  .mobile-nav-buttons {
+    border-bottom: 2px solid #13a8b1;
+    min-height: 50px;
+  }
+
+  .menu-toggle {
+    float: left;
+    padding: 10px;
+  }
+
+  .main-navigation.toggled ul {
+    width: 100%;
+  }
+
+  .mobile-nav-search {
+    display: block;
+    float: right;
+  }
+
+  .toggle-search, .nav-search {
+    display: none;
+  }
+
+  .main-navigation {
+    background-color: white;
+  }
+
+  .nav-menu {
+    background-color: #13a8b1;
+  }
+
+  .menu-primary-container {
+    background-color: #13a8b1;
+  }
+
+  .main-navigation li {
+    border-right: none;
+    border-bottom: 1px solid #009999;
+    clear: both;
+    float: none;
+    position: relative;
+  }
+
+  .main-navigation li:first-child {
+    border-left: none;
+    border-top: 1px solid #009999;
+  }
+
+  .main-navigation .sub-menu li > a:before {
+    font-family: FontAwesome;
+    content: '\f105';
+    font-size: 14px;
+    position: relative;
+    padding-right: 7px;
+  }
+
+  .main-navigation ul ul {
+    display: block;
+    padding-left: 15px;
+    position: relative;
+    width: 100%;
+  }
+
+  .main-navigation ul ul ul {
+    width: 100%;
+  }
+
+  .main-navigation ul ul li > a {
+    width: 100%;
+  }
+
+  .main-navigation ul ul ul {
+    display: block;
+    position: relative;
+  }
+}
+.site-main .comment-navigation, .site-main
+.posts-navigation, .site-main
+.post-navigation {
+  margin: 0 0 3.5em;
+  overflow: hidden;
+}
+.comment-navigation .nav-links a,
+.posts-navigation .nav-links a,
+.post-navigation .nav-links a {
+  color: #666666;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+  float: left;
+  width: 50%;
+}
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+  float: right;
+  text-align: right;
+  width: 50%;
+}
+
+.social_links {
+  margin: 0 0 0 6em;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: flex-start;
+  -ms-justify-content: flex-start;
+  justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.social_links .social_icon {
+  display: inline-block;
+  border: 1px solid #eee;
+  border-radius: 16px;
+  color: #999999;
+  margin: 9px 6px;
+  height: 32px;
+  width: 32px;
+  line-height: 32px;
+  text-align: center;
+}
+.social_links .social_icon a {
+  color: #999999;
+}
+.social_links .social_icon:hover {
+  background: #13a8b1;
+  color: white;
+}
+.social_links .social_icon:hover a {
+  background: #13a8b1;
+  color: white;
+}
+.social_links .email_id {
+  margin: 9px 10px;
+}
+.social_links .email_id a:visited {
+  color: #999999;
+}
+
+.email_id a:hover {
+  color: #13a8b1;
+}
+
+@media screen and (max-width: 768px) {
+  .social_links {
+    margin: 0;
+  }
+}
+/*
+<section class="home-slider-wrapper">
+		<ul class="bxslider">
+				<li><img src="/images/home_slides/picto.png"></li>
+				<li><img src="/images/home_slides/houses.jpg"></li>
+				<li><img src="/images/home_slides/hillside.jpg"></li>
+		</ul>
+</section>
+*/
+section.home-slider-wrapper {
+  width: 100%;
+  background: #ff0000;
+}
+section.home-slider-wrapper ul.bxslider {
+  width: 100%;
+}
+
 /*--------------------------------------------------------------
 # Organisms
 --------------------------------------------------------------*/
-/*@import "organisms/organisms";
+.gallery {
+  margin-bottom: 1.5em;
+}
+
+.gallery-item {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+}
+.gallery-columns-2 .gallery-item {
+  max-width: 50%;
+}
+.gallery-columns-3 .gallery-item {
+  max-width: 33.33%;
+}
+.gallery-columns-4 .gallery-item {
+  max-width: 25%;
+}
+.gallery-columns-5 .gallery-item {
+  max-width: 20%;
+}
+.gallery-columns-6 .gallery-item {
+  max-width: 16.66%;
+}
+.gallery-columns-7 .gallery-item {
+  max-width: 14.28%;
+}
+.gallery-columns-8 .gallery-item {
+  max-width: 12.5%;
+}
+.gallery-columns-9 .gallery-item {
+  max-width: 11.11%;
+}
+
+.gallery-caption {
+  display: block;
+}
+
 /*--------------------------------------------------------------
 # Templates
 --------------------------------------------------------------*/
-/*@import "templates/templates"; */
+/*@import "templates/templates";*/
 
 /*# sourceMappingURL=style.css.map */
