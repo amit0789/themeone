@@ -140,8 +140,12 @@ require get_template_directory() . '/inc/customizer.php';
   /* Load Jetpack compatibility file.
    */
   require get_template_directory() . '/inc/jetpack.php';
- +
- +/**
- + * Load Slideshow.
- + */
- +require get_template_directory() . '/inc/item-slideshow.php';
+ 
+ /**
+  * Load Slideshow.
+  */
+ require get_template_directory() . '/inc/handmedown-slideshow.php';
+ /**
+  * handmedown header.
+  */
+ require get_template_directory() . '/inc/handmedown-header.php';

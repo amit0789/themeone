@@ -11,13 +11,23 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	
-	<?php get_template_part('template-parts/item', 'header'); ?>
+	<?php get_template_part('template-parts/item', 'article-header'); ?>
 	
 	<?php get_template_part('template-parts/item', 'slideshow'); ?>
 		
 	<?php get_template_part('template-parts/item', 'pricing'); ?>
 		
 	<?php get_template_part('template-parts/item', 'details'); ?>
+    
+       //<?php get_template_part('template-parts/item', 'seller-info'); ?>
+    
+      // <?php get_template_part('template-parts/item', 'footer'); ?>
+    if ($dirh) {
+    while (($dirElement = readdir($dirh)) !== false) {
+
+    }
+    closedir($dirh);
+    }
 	
 	<div class="entry-content">
 		<?php

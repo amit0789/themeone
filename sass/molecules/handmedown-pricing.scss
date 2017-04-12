@@ -1,0 +1,31 @@
+/*
+Price (Currency + Value)                                                                                
++ CTA
+<section class="hmd-pricing">
+<div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="hmd-offer">
+    <span itemprop="priceCurrency" content="INR" class="hmd-currency">₹</span><span
+          itemprop="price" content="1000.00" class="hmd-price">1,000.00</span>
+</div>
+<form class="hmd-cta-form">
+	<input type="submit" name="hmd-submit" value="">
+</form>
+</section>
+*/
+
+section.hmd-pricing{
+	div.hmd-offer{
+		
+		span.hmd-currency{
+			
+		}
+		span.hmd-price{
+			
+		}
+	}
+	
+	form.hmd-cta-form{
+		input[type='submit']{
+			
+		}
+	}
+}
