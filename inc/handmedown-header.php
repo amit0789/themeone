@@ -2,7 +2,7 @@
   // filter 'post_class' and add our own classes to the article tag for single posts
   // viz. hmd-item, hmd-product
 
-function _s_location(){
+function _amit_theme_location(){
 // will contain code for displaying location
 	/*
 	<address itemprop="location" itemscope itemtype="http://schema.org/Place">
