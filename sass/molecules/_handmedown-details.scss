@@ -1,10 +1,89 @@
 /*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Apr 6, 2017, 9:45:00 PM
-    Author     : AMIT
-*/
+<!--Meta
+Age (less than _ years)* => 2 inputs
+Warranty Left => (less than _ mo/year) (toggle)
+Availability Timings of Seller => metas
+Taxonomy
+Brand => Free text
+Model => Free text
+Size/ Dimensions => Free Text
+Handmedown
+Included Accessories => Free Text, 
 
+<form>
+<section class="hmd-details">
+ Age:
+  <input type="text" name="Age"> // years old 
+  <br>
+  warrantyleft in months:
+  <input type="text" name="Warranty left in months"> // warranty left
+
+  <div itemprop="Availability Timings of Seller" itemscope itemtype="http://schema.org/Pharmacy"> // avialability timings
+  <h1 itemprop="Availability Timings of Seller</h1>
+  <p itemprop="description">collect product from seller</p>
+  <p>Open: <span itemprop="Timings" content="Mo,Tu,We,Th 09:00-12:00">Monday-Thursday 9am-noon</span></p>
+  <p>Phone: <span itemprop="telephone" content="+18005551234">(800)555-1234</span></p>
+</div>
+  <div  itemprop="brand" itemscope itemtype="http://schema.org/Product">   // brand
+  <span itemprop="brand">Kenmore White 17" Microwave</span>
+  <img itemprop="image" src="kenmore-microwave-17in.jpg" alt='Kenmore 17" Microwave' />
+  <div itemprop="model" itemscope itemtype="http://schema.org/ProductModel" itemid="#model"> // model
+ <link itemprop="model"
+       href="http://www.productontology.org/id/Television_set" />
+ <span itemprop="name">ACME Colorvision 123</span>
+ <span itemprop="description">The ACME Colorvision 123 is
+  the leading-edge color TV from our company.</span>
+ EAN/UPC: <span itemprop="gtin13">1234567890123</span>
+</div>
+     <div itemprop="value" itemscope itemtype="http://schema.org/PropertyValue"> //value i.e size/dimensions
+        <span itemprop="size">size</span>
+        <span itemprop="dimension">Dimensions</span>
+        
+      </div>
+	  <input type="text" name="included accessories">
+	  <form class="hmd-cta-form">
+	<input type="submit" name="hmd-submit" value="">
+</form>
+     </section>  -->
+     */
+	section.hmd-details{
+	         div.hmd-Availability Timings of Seller{
+			          span.hmd-Timings{
+					  }
+                                          span.hmd-telephone {
+                                              
+                                          }					  
+	
+ }
+                   div.hmd-brand{
+                      span.hmd-brand{
+                          
+                      }
+                      
+                      div.hmd-model{
+                          span.hmd-name{
+                              
+                          }
+                          span.hmd-description{
+                              
+                          }
+                      }  
+                      
+                      div.hmd-value{
+                          span.hmd-size{
+                              
+                          }
+                          span.hmd-dimension{
+                              
+                          }
+                          
+	form.hmd-cta-form{
+		input[type='submit']{
+			
+		}}
+                      }
+                      
+ 
+ }			 
+	 
+	 
